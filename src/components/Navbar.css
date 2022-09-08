@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+   
+    position: absolute;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #6900ff;
+}
+
+.teal {
+    color: #0188D1;
+}
