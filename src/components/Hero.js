@@ -12,8 +12,10 @@ import Coin from '../routes/Coin';
 
   return (
     <div className='cont'>
-<video width="320" height="240"                                                                                                                className='hero-video' src={herovid} autoPlay loop muted />
 
+      <video className='hero-video' width="320" height="500" src={herovid} autoPlay loop muted />
+      
+       
       <div className='hero-container'>
 
         <h1 className='hero-text'>Welcome to Cryptopia</h1>
