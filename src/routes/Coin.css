@@ -78,7 +78,24 @@ th {
     margin: 1rem 0;
 }
 
+.about p {
+    margin: 1rem 0;
+    text-align: justify;
+}
+
 @media screen and (max-width: 700px) {
+    .info {
+        display: block;
+    }
+
+    .info .coin-price {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
     .coin-container .content {
         max-width: 100%;
         margin: .5rem;
